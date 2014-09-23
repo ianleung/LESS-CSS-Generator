@@ -1,0 +1,248 @@
+body * {
+  font-family: Times New Roman, Georgia, Serif;
+  font-size: 15px;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  color: #FF0000;
+  margin: 10px 0px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 1 * 48px;
+}
+h2 {
+  font-size: 43.2px;
+  line-height: 1 * 43.2px;
+}
+h3 {
+  font-size: 38.4px;
+  line-height: 1 * 38.4px;
+}
+h4 {
+  font-size: 33.6px;
+  line-height: 1 * 33.6px;
+}
+h5 {
+  font-size: 28.8px;
+  line-height: 1 * 28.8px;
+}
+h6 {
+  font-size: 24px;
+  line-height: 1 * 24px;
+}
+p {
+  line-height: 15px;
+  margin: 10px 0px;
+}
+a {
+  color: #FF0000;
+  text-decoration: none;
+}
+a.linkHover,
+a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+a.linkVisited {
+  color: #ff9999;
+}
+.defaultBorder {
+  border: 1px solid #ff6666;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+}
+.rounded-corners {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+}
+.clear {
+  clear: both;
+}
+input[type="submit"],
+.button {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+  border: 1px solid #ff6666;
+  cursor: pointer;
+  padding: 5px;
+  background: #F5F5F5 !important;
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#990000),color-stop(1,#FF0000)) !important;
+  background: -ms-linear-gradient(bottom,#990000,#FF0000) !important;
+  background: -moz-linear-gradient(center bottom,#990000 0%,#FF0000 100%) !important;
+  background: -o-linear-gradient(#FF0000,#990000) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#990000', GradientType=0) !important;
+  color: #fff !important;
+}
+input[type="submit"]:hover,
+.buttonHover,
+.button:hover {
+  box-shadow: 0px 0px 4px #666;
+  -moz-box-shadow: 0px 0px 4px #666;
+  -webkit-box-shadow: 0px 0px 4px #666;
+  background: #F5F5F5 !important;
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#660000),color-stop(1,#cc0000)) !important;
+  background: -ms-linear-gradient(bottom,#660000,#cc0000) !important;
+  background: -moz-linear-gradient(center bottom,#660000 0%,#cc0000 100%) !important;
+  background: -o-linear-gradient(#cc0000,#660000) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc0000', endColorstr='#660000', GradientType=0) !important;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #fff !important;
+}
+input[type="submit"]:active,
+.buttonActive,
+.button:active {
+  box-shadow: 0px 0px 4px #666;
+  -moz-box-shadow: 0px 0px 4px #666;
+  -webkit-box-shadow: 0px 0px 4px #666;
+  background: #F5F5F5 !important;
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#990000),color-stop(1,#660000)) !important;
+  background: -ms-linear-gradient(bottom,#990000,#660000) !important;
+  background: -moz-linear-gradient(center bottom,#990000 0%,#660000 100%) !important;
+  background: -o-linear-gradient(#660000,#990000) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#660000', endColorstr='#990000', GradientType=0) !important;
+  -webkit-transition: 0.0s;
+  -moz-transition: 0.0s;
+  -o-transition: 0.0s;
+  transition: 0.0s;
+  -webkit-transition: all 0.0s ease-out;
+  -moz-transition: all 0.0s ease-out;
+  -o-transition: all 0.0s ease-out;
+  transition: all 0.0s ease-out;
+  color: #fff !important;
+}
+form {
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ff6666;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+  display: inline-block;
+}
+select,
+textarea,
+input[type="password"],
+input[type="text"] {
+  padding-left: 7.5px;
+  padding-right: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 1px solid #ccc;
+  outline: none;
+  min-width: 200px;
+  margin: 10px 0px;
+}
+select {
+  padding-right: 4px;
+}
+textarea {
+  min-height: 50px;
+}
+textarea:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+select:focus {
+  border-color: #cc0000;
+}
+textarea:hover,
+input[type="password"]:hover,
+input[type="text"]:hover,
+select:hover {
+  border-color: #ff9999;
+}
+.chosen-container .chosen-results li.highlighted {
+  background-color: #990000;
+  background: #F5F5F5 !important;
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#990000),color-stop(1,#660000)) !important;
+  background: -ms-linear-gradient(bottom,#990000,#660000) !important;
+  background: -moz-linear-gradient(center bottom,#990000 0%,#660000 100%) !important;
+  background: -o-linear-gradient(#660000,#990000) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#660000', endColorstr='#990000', GradientType=0) !important;
+}
+.chosen-container-active .chosen-single {
+  border: 1px solid #990000 !important;
+  border-bottom: none;
+}
+.chosen-container-active .chosen-drop {
+  border: 1px solid #990000;
+  border-top: none;
+}
+#block1 {
+  background-color: #990000;
+}
+#block1:before {
+  content: "#990000";
+}
+#block2 {
+  background-color: #cc0000;
+}
+#block2:before {
+  content: "#cc0000";
+}
+#block3 {
+  background-color: #FF0000;
+}
+#block3:before {
+  content: "#ff0000";
+}
+#block4 {
+  background-color: #ff3333;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#block4:before {
+  content: "#ff3333";
+}
+#block5 {
+  background-color: #ff6666;
+}
+#block5:before {
+  content: "#ff6666";
+}
+.shadow {
+  box-shadow: 0 0 10px #666;
+  -moz-box-shadow: 0 0 10px #666;
+  -webkit-box-shadow: 0 0 10px #666;
+}
+.block {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  display: table-cell;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+  border: 1px solid #FF0000;
+  float: left;
+  color: #fff;
+  text-align: center;
+}
