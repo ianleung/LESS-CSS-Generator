@@ -2,6 +2,7 @@
 LESS CSS README
 ------------------------------------------------
 Author's Note - This project was started by me to learn PHP, Javascript, HTML, and general web coding as a beginner. I understand alot of my code may be considered sloppy/not-optimal. Any input or comments are appreciated and can be sent to ianmhleung@hotmail.com. Thanks!
+IMPORTANT - May need to change directory paths to make it work for you.
 
 ------------------------------------------------
 What this does
