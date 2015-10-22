@@ -49,8 +49,8 @@ $changed = get_option('sheets_changed_time');
 }
 	
 	
-//add_action ('wp_head', 'add_to_stylesheet');
-//add_action('admin_menu', 'lesscss_admin_actions');
+add_action ('wp_head', 'add_to_stylesheet');
+add_action('admin_menu', 'lesscss_admin_actions');
 	
 
 ?>  

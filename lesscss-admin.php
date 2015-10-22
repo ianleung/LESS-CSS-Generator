@@ -3,6 +3,9 @@
   margin:25px 250px; font-size:72px;">LESS CSS EDITOR!</div>
 <?php	
 
+$path = "/wp-content/plugins/less-css";
+$current_file_path = dirname(__FILE__);
+include_once( $current_file_path.'\config.php');
 //this page defines what you see in the control page in Settings
 $newSSID = get_item('stylesheet_counter','nothing');
 $stylesheets = get_option('variable_array_list','nothing');
